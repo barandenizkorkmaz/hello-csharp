@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "hello-csharp",
   "scripts": {
-    "prepare": "husky install && dotnet tool restore"
+    "prepare": "husky install && dotnet tool restore",
+    "cz": "cz"
   },
   "repository": {
     "type": "git",
