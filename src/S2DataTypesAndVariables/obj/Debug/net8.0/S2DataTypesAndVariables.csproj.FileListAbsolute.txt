@@ -1,0 +1,14 @@
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/bin/Debug/net8.0/S2DataTypesAndVariables
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/bin/Debug/net8.0/S2DataTypesAndVariables.deps.json
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/bin/Debug/net8.0/S2DataTypesAndVariables.runtimeconfig.json
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/bin/Debug/net8.0/S2DataTypesAndVariables.dll
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/bin/Debug/net8.0/S2DataTypesAndVariables.pdb
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/S2DataTypesAndVariables.GeneratedMSBuildEditorConfig.editorconfig
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/S2DataTypesAndVariables.AssemblyInfoInputs.cache
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/S2DataTypesAndVariables.AssemblyInfo.cs
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/S2DataTypesAndVariables.csproj.CoreCompileInputs.cache
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/S2DataTypesAndVariables.dll
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/refint/S2DataTypesAndVariables.dll
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/S2DataTypesAndVariables.pdb
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/S2DataTypesAndVariables.genruntimeconfig.cache
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/ref/S2DataTypesAndVariables.dll
