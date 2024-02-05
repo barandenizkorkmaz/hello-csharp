@@ -12,3 +12,4 @@
 /home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/S2DataTypesAndVariables.pdb
 /home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/S2DataTypesAndVariables.genruntimeconfig.cache
 /home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/ref/S2DataTypesAndVariables.dll
+/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/Debug/net8.0/S2DataTypesAndVariables.sourcelink.json
