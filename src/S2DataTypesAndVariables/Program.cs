@@ -148,6 +148,47 @@ class Program
         const double PI = 3.14159265;
         const int days = 365, weeks = 52, months = 12;
         
-
+        /*
+         * ref keyword & Generic Collections
+         */
+        int[] xs = [10, 20, 30, 40];
+        Console.WriteLine("Before:");
+        PrintCollection(xs);
+        
+        Console.WriteLine("After:");
+        ref int item = ref xs[1];
+        item = 60;
+        PrintCollection(xs);
+        
+        ref int found = ref FindFirst(xs, s => s == 30);
+        int found2 = FindFirst(xs, s => s == 30);
+        found = 40;
+        PrintCollection(xs);
+        found2 = 80; // Note that it has no effect!
+        // The caller can then choose to treat the returned variable
+        // as if it were returned by value or by reference.
+        // Methods returning by reference can't have the return type void.
+        PrintCollection(xs);
+    }
+    
+    public static void PrintCollection<T>(IEnumerable<T> collection)
+    {
+      foreach (var item in collection)
+      {
+       Console.Write($"{item} ");
+      }
+      Console.WriteLine();
+    }
+    
+    public static ref int FindFirst(int[] numbers, Func<int, bool> predicate)
+    {
+      for (int i = 0; i < numbers.Length; i++)
+      {
+        if (predicate(numbers[i]))
+        {
+          return ref numbers[i];
+        }
+      }
+      throw new InvalidOperationException("No element satisfies the given condition.");
     }
 }
