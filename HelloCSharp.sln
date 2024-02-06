@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3Functions", "src\S3Functi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S4MakingDecisions", "src\S4MakingDecisions\S4MakingDecisions.csproj", "{A20710B8-6C91-4C1A-B62A-147B09E00131}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5Loops", "src\S5Loops\S5Loops.csproj", "{30B202F5-643E-407E-BBD7-473AFDE970F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{A20710B8-6C91-4C1A-B62A-147B09E00131}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A20710B8-6C91-4C1A-B62A-147B09E00131}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A20710B8-6C91-4C1A-B62A-147B09E00131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B202F5-643E-407E-BBD7-473AFDE970F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B202F5-643E-407E-BBD7-473AFDE970F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B202F5-643E-407E-BBD7-473AFDE970F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B202F5-643E-407E-BBD7-473AFDE970F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
