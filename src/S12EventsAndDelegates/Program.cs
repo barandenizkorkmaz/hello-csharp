@@ -2,6 +2,7 @@
 using S12EventsAndDelegates.Examples._2CustomDelegates;
 using S12EventsAndDelegates.Examples._3AnonymousMethods;
 using S12EventsAndDelegates.Examples._4LambdaExpressions;
+using S12EventsAndDelegates.Examples._5EventsAndMulticastDelegates;
 
 namespace S12EventsAndDelegates;
 
@@ -22,6 +23,9 @@ class Program
         
         // Lambda Expressions
         LambdaExpressions.LambdaExpressionsMain();
+        
+        // Events and Multicast Delegates
+        EventsAndMulticastDelegates.EventsAndMulticastDelegatesMain();
         
     }
 

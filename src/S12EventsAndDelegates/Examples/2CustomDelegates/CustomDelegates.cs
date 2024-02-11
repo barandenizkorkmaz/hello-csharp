@@ -11,7 +11,9 @@ public class CustomDelegates
         Person p3 = new Person() {Name = "Walter", Age = 12};
         Person p4 = new Person() {Name = "Anatoli", Age = 25};
         List<Person> people = new List<Person> {p1, p2, p3, p4};
-        
+
+        FilterDelegate myDelegate = IsMinor;
+        DisplayPeople("Kids", people, myDelegate);
         DisplayPeople("Kids", people, IsMinor);
         DisplayPeople("Adults", people, IsAdult);
         DisplayPeople("Seniors", people, IsSenior);
