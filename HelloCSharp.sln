@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S10Polymorphism", "src\S10P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S11AdvancedTopics", "src\S11AdvancedTopics\S11AdvancedTopics.csproj", "{0D2B9F9B-ADC4-4976-AD0A-B780F0404F4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S12EventsAndDelegates", "src\S12EventsAndDelegates\S12EventsAndDelegates.csproj", "{16141DBB-3841-4F2C-B532-EE134D1EACB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{0D2B9F9B-ADC4-4976-AD0A-B780F0404F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D2B9F9B-ADC4-4976-AD0A-B780F0404F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D2B9F9B-ADC4-4976-AD0A-B780F0404F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16141DBB-3841-4F2C-B532-EE134D1EACB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16141DBB-3841-4F2C-B532-EE134D1EACB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16141DBB-3841-4F2C-B532-EE134D1EACB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16141DBB-3841-4F2C-B532-EE134D1EACB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
