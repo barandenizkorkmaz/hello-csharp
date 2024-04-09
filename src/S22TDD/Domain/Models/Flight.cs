@@ -1,4 +1,6 @@
-﻿namespace Domain.Models;
+﻿using Domain.Exceptions;
+
+namespace Domain.Models;
 
 public class Flight
 {

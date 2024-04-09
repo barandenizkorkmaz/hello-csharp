@@ -28,4 +28,12 @@ public class FlightSpecifications
         // Then
         action.Should().Throw<OverbookingError>();
     }
+
+    [Fact]
+    public void Books_flights_successfully()
+    {
+        var flight = new Flight(seatCapacity: 3);
+        Action action = () => flight.Book("test@test.com", 1);
+        action.Should().NotThrow();
+    }
 }
