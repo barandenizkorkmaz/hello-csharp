@@ -40,4 +40,13 @@ public class FlightSpecifications
         Action action = () => flight.Book("test@test.com", 1);
         action.Should().NotThrow();
     }
+
+    [Fact]
+    public void Remembers_bookings()
+    {
+        var flight = new Flight(seatCapacity: 150);
+        flight.Book(email:"a@b.com", numberOfSeats: 4);
+        flight.BookingList.Should().ContainEquivalentOf(new Booking("a@b.com", 4));
+
+    }
 }

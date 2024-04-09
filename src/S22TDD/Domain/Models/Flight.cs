@@ -4,6 +4,7 @@ namespace Domain.Models;
 
 public class Flight
 {
+    public List<Booking> BookingList { get; set; } = new List<Booking>();
 
     public int RemainingNumberOfSeats { get; set; }
 
@@ -18,7 +19,8 @@ public class Flight
         {
             throw new OverbookingError();
         }
-        RemainingNumberOfSeats -= numberOfSeats;
 
+        RemainingNumberOfSeats -= numberOfSeats;
+        BookingList.Add(new Booking(email, numberOfSeats));
     }
 }
