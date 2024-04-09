@@ -17,6 +17,26 @@ public class FlightSpecifications
     }
 
     [Fact]
+    public void Booking_reduces_the_number_of_seats_2()
+    {
+        var flight = new Flight(seatCapacity: 6);
+
+        flight.Book("test@test.com", 3);
+
+        flight.RemainingNumberOfSeats.Should().Be(3);
+    }
+
+    [Fact]
+    public void Booking_reduces_the_number_of_seats_3()
+    {
+        var flight = new Flight(seatCapacity: 10);
+
+        flight.Book("test@test.com", 4);
+
+        flight.RemainingNumberOfSeats.Should().Be(6);
+    }
+
+    [Fact]
     public void Avoids_overbooking()
     {
         // Given: Preconditions
