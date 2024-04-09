@@ -29,5 +29,17 @@ namespace Application
                     booking.NumberOfSeats)
                 );
         }
+
+        public void CancelBooking(CancelBookingDto cancelBookingDto)
+        {
+            var flight = Entities.Flights.Find(cancelBookingDto.FlightId);
+            flight.CancelBooking(cancelBookingDto.Email, cancelBookingDto.NumberOfSeats);
+            Entities.SaveChanges();
+        }
+
+        public object GetRemainingNumberOfSeatsFor(Guid id)
+        {
+            return Entities.Flights.Find(id).RemainingNumberOfSeats;
+        }
     }
 }
