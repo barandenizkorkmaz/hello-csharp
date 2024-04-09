@@ -1,4 +1,5 @@
-using Domain;
+using Domain.Exceptions;
+using Domain.Models;
 using FluentAssertions;
 
 namespace FlightApp.Tests;
@@ -13,5 +14,18 @@ public class FlightSpecifications
         flight.Book("test@test.com", 1);
 
         flight.RemainingNumberOfSeats.Should().Be(2);
+    }
+
+    [Fact]
+    public void Avoids_overbooking()
+    {
+        // Given: Preconditions
+        var flight = new Flight(seatCapacity: 3);
+
+        // When: What triggers the action
+        Action action = () => flight.Book("test@test.com", 10);
+
+        // Then
+        action.Should().Throw<OverbookingError>();
     }
 }
