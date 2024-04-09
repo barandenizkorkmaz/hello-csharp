@@ -86,4 +86,5 @@ public class FlightSpecifications
         Action action = () => flight.CancelBooking(email: "a@b.com", numberOfSeats: 1);
         action.Should().NotThrow();
     }
+
 }

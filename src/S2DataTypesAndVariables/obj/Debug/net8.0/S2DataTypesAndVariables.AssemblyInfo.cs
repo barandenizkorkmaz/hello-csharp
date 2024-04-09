@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("S2DataTypesAndVariables")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+695aaec422898e1af75d05199b7c252a1f040b2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d316c3f89e36a5295fa874f4285ed8a183698abb")]
 [assembly: System.Reflection.AssemblyProductAttribute("S2DataTypesAndVariables")]
 [assembly: System.Reflection.AssemblyTitleAttribute("S2DataTypesAndVariables")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
