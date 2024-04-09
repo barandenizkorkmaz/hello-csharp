@@ -26,4 +26,13 @@ public class Flight
         RemainingNumberOfSeats -= numberOfSeats;
         bookingList.Add(new Booking(email, numberOfSeats));
     }
+
+    public void CancelBooking(string email, int numberOfSeats)
+    {
+        if(!bookingList.Any(booking => booking.Email == email))
+        {
+            throw new BookingNotFoundError();
+        }
+        RemainingNumberOfSeats += numberOfSeats;
+    }
 }
