@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/S2DataTypesAndVariables.csproj": {}
+    "C:\\Users\\baran\\BDK\\Dev\\Git\\hello-csharp\\src\\S2DataTypesAndVariables\\S2DataTypesAndVariables.csproj": {}
   },
   "projects": {
-    "/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/S2DataTypesAndVariables.csproj": {
+    "C:\\Users\\baran\\BDK\\Dev\\Git\\hello-csharp\\src\\S2DataTypesAndVariables\\S2DataTypesAndVariables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/S2DataTypesAndVariables.csproj",
+        "projectUniqueName": "C:\\Users\\baran\\BDK\\Dev\\Git\\hello-csharp\\src\\S2DataTypesAndVariables\\S2DataTypesAndVariables.csproj",
         "projectName": "S2DataTypesAndVariables",
-        "projectPath": "/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/S2DataTypesAndVariables.csproj",
-        "packagesPath": "/home/denizkorkmaz/.nuget/packages/",
-        "outputPath": "/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/obj/",
+        "projectPath": "C:\\Users\\baran\\BDK\\Dev\\Git\\hello-csharp\\src\\S2DataTypesAndVariables\\S2DataTypesAndVariables.csproj",
+        "packagesPath": "C:\\Users\\baran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\baran\\BDK\\Dev\\Git\\hello-csharp\\src\\S2DataTypesAndVariables\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/denizkorkmaz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\baran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

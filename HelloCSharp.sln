@@ -1,30 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2DataTypesAndVariables", "src\S2DataTypesAndVariables\S2DataTypesAndVariables.csproj", "{07A2F94A-9E20-40EF-9023-A19A9B15A66A}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2DataTypesAndVariables", "src\S2DataTypesAndVariables\S2DataTypesAndVariables.csproj", "{07A2F94A-9E20-40EF-9023-A19A9B15A66A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3Functions", "src\S3Functions\S3Functions.csproj", "{202112E4-1E9A-46AA-92C6-67C8DC046DFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3Functions", "src\S3Functions\S3Functions.csproj", "{202112E4-1E9A-46AA-92C6-67C8DC046DFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S4MakingDecisions", "src\S4MakingDecisions\S4MakingDecisions.csproj", "{A20710B8-6C91-4C1A-B62A-147B09E00131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S4MakingDecisions", "src\S4MakingDecisions\S4MakingDecisions.csproj", "{A20710B8-6C91-4C1A-B62A-147B09E00131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5Loops", "src\S5Loops\S5Loops.csproj", "{30B202F5-643E-407E-BBD7-473AFDE970F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S5Loops", "src\S5Loops\S5Loops.csproj", "{30B202F5-643E-407E-BBD7-473AFDE970F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S6OOP", "src\S6OOP\S6OOP.csproj", "{1D25653C-3B6A-456D-98D0-A1B81BEFB319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S6OOP", "src\S6OOP\S6OOP.csproj", "{1D25653C-3B6A-456D-98D0-A1B81BEFB319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S7Collections", "src\S7Collections\S7Collections.csproj", "{D4064541-F851-4FE7-95D9-51B60091A772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S7Collections", "src\S7Collections\S7Collections.csproj", "{D4064541-F851-4FE7-95D9-51B60091A772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S9Inheritance", "src\S9Inheritance\S9Inheritance.csproj", "{9D84282B-5A8D-4761-9244-2C1AB72D2834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S9Inheritance", "src\S9Inheritance\S9Inheritance.csproj", "{9D84282B-5A8D-4761-9244-2C1AB72D2834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S10Polymorphism", "src\S10Polymorphism\S10Polymorphism.csproj", "{E78FDBD8-1BAA-49E9-B291-68B7837FC6B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S10Polymorphism", "src\S10Polymorphism\S10Polymorphism.csproj", "{E78FDBD8-1BAA-49E9-B291-68B7837FC6B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S11AdvancedTopics", "src\S11AdvancedTopics\S11AdvancedTopics.csproj", "{0D2B9F9B-ADC4-4976-AD0A-B780F0404F4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S11AdvancedTopics", "src\S11AdvancedTopics\S11AdvancedTopics.csproj", "{0D2B9F9B-ADC4-4976-AD0A-B780F0404F4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S12EventsAndDelegates", "src\S12EventsAndDelegates\S12EventsAndDelegates.csproj", "{16141DBB-3841-4F2C-B532-EE134D1EACB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S12EventsAndDelegates", "src\S12EventsAndDelegates\S12EventsAndDelegates.csproj", "{16141DBB-3841-4F2C-B532-EE134D1EACB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S18LINQ", "src\S18LINQ\S18LINQ.csproj", "{F4F469F4-3234-41E2-8E93-E8E33134D894}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S18LINQ", "src\S18LINQ\S18LINQ.csproj", "{F4F469F4-3234-41E2-8E93-E8E33134D894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S21Threads", "src\S21Threads\S21Threads.csproj", "{134CDB0F-3496-43BF-9750-1FDA1E1061E7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S22Testing", "src\S22Testing\S22Testing.csproj", "{BD321C9F-139D-4E84-88DC-997AC2D1BE5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S21Threads", "src\S21Threads\S21Threads.csproj", "{134CDB0F-3496-43BF-9750-1FDA1E1061E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,9 +81,8 @@ Global
 		{134CDB0F-3496-43BF-9750-1FDA1E1061E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{134CDB0F-3496-43BF-9750-1FDA1E1061E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{134CDB0F-3496-43BF-9750-1FDA1E1061E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD321C9F-139D-4E84-88DC-997AC2D1BE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD321C9F-139D-4E84-88DC-997AC2D1BE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD321C9F-139D-4E84-88DC-997AC2D1BE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD321C9F-139D-4E84-88DC-997AC2D1BE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

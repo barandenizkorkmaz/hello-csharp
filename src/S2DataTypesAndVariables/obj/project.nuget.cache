@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gPwLGJtP5cM8g0q50C41jz7bQsV7wj3CW2M2ZQx9LQQ0wl8BuWOzIsfYT/A0+Vh/YTreeVTRmdVjP+Ue2cF3yg==",
+  "dgSpecHash": "FLjOBCkGb0b0EqTKwHZNX32YIURwGI1Tjw6YO//ijsZdQEDGhUDrx0p0Iszk4P14Fan9dVDqiTYSxdRlnFij8w==",
   "success": true,
-  "projectFilePath": "/home/denizkorkmaz/Git/BDK-Repositories/Personal/HelloCSharp/src/S2DataTypesAndVariables/S2DataTypesAndVariables.csproj",
+  "projectFilePath": "C:\\Users\\baran\\BDK\\Dev\\Git\\hello-csharp\\src\\S2DataTypesAndVariables\\S2DataTypesAndVariables.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
